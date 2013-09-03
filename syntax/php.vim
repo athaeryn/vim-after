@@ -12,8 +12,6 @@ syn keyword htmlArg contained itemprop list subject spellcheck
 syn match   htmlArg "\<\(data-[\-a-zA-Z0-9_]\+\)=" contained
 
 
-
-" hi htmlTagName ctermfg=15
 hi link htmlTagName Normal
 hi link htmlArg Normal
 
@@ -21,3 +19,7 @@ hi htmlTag     ctermfg=8
 hi htmlEndTag  ctermfg=8
 
 hi htmlString ctermfg=10
+
+hi Delimiter ctermfg=14
+
+hi link phpDefine Normal
